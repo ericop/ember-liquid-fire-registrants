@@ -1,0 +1,17 @@
+<div class="registrant-container">
+    <div class="profile-container">
+        <div id="zoomButton-{{model.id}}" class="profile-purple profile-image" data-reg-id={{model.id}}>
+            <img src="/assets/DanielTiger{{unbound model.imageType}}.png" />
+        </div>
+    </div>
+    <div>
+        <p>
+          <strong>The Person:</strong> {{model.firstName}} {{model.lastName}} 
+        </p>
+        
+        <p>
+           <strong>Email:</strong> {{model.email}}
+        </p>
+        <strong>Remove?</strong> 
+    </div>
+</div>

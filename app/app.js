@@ -5,6 +5,9 @@ import config from './config/environment';
 
 let App;
 
+//Turns off deprication warnings in console
+Ember.deprecate = function(){};
+
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
 App = Ember.Application.extend({

@@ -1,7 +1,9 @@
-# Eventplanning
+# Ember-liquid-fire-registrants
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+This was originally to be a test of integrating Ember in a sub-route of an ASP MVC .NET App. I wanted to show the wonders of [Liquid-Fire](https://github.com/ember-animation/liquid-fire) in the demo. 
+Sadly, no tidy way of putting Ember in an MCV app presented itself. Only having a Single Page App, with MVC APIs was well documented, and even that was about 2 years out of date.
 
 ## Prerequisites
 

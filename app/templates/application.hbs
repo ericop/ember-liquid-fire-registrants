@@ -1,3 +1,11 @@
-<h2 id="title">Welcome to Ember</h2>
+<h1>Welcome to {{appName}}</h1>
+<br>
+<div class="pageContent_applicationBodyHolderInner">
+<h4>{{#link-to "registrants"}}
+      <span class="glyphicon glyphicon-home"></span>
+    {{/link-to}}
+</h4>
 
-{{outlet}}
+        {{liquid-outlet}}
+</div>
+<br>

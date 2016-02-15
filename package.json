@@ -1,7 +1,7 @@
 {
-  "name": "eventplanning",
-  "version": "0.0.0",
-  "description": "Small description for eventplanning goes here",
+  "name": "ember-liquid-fire-registrants",
+  "version": "0.0.1",
+  "description": "Small description for ember-liquid-fire-registrants goes here",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -20,6 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
+    "ember-bootstrap": "0.6.0",
     "ember-cli": "1.13.15",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.5",
@@ -33,8 +34,11 @@
     "ember-cli-release": "0.2.8",
     "ember-cli-sri": "^1.2.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-cli-windows-addon": "^1.3.1",
     "ember-data": "1.13.15",
+    "ember-data-fixture-adapter": "1.13.0",
     "ember-disable-proxy-controllers": "^1.0.1",
-    "ember-export-application-global": "^1.0.4"
+    "ember-export-application-global": "^1.0.4",
+    "liquid-fire": "0.23.0"
   }
 }

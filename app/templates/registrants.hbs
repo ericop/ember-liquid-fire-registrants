@@ -1,0 +1,17 @@
+<div class="registrant-container">
+    <h4>Registrant List</h4>
+    <ul>
+    {{#each item in model}}
+        <li>
+            <button id="zoomButton-{{item.id}}" class="profile-purple" type="button"{{action "zoomRegistrant" item.id}} data-reg-id={{item.id}}>
+              <img src="/assets/DanielTiger{{unbound item.imageType}}.png" /> 
+            </button>
+            <strong>Name:</strong> {{item.firstName}} {{item.lastName}}
+        </li>
+    {{/each}}
+    
+    </ul>
+    <button class="button-blue" type="button"{{action "addRegistrant" this.id}}>Add a Company</button>
+
+</div>
+{{outlet}}
